@@ -3,6 +3,7 @@ import "./App.css";
 import store from "./redux/store";
 import Cake from "./components/cake";
 import Milk from "./components/Milk";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>Redux</div>
       <Cake />
       <Milk />
+      <Users />
     </Provider>
   );
 }
